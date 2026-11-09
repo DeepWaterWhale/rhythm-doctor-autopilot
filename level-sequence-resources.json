@@ -1,0 +1,812 @@
+{
+  "1-1": {
+    "type": "character",
+    "group": 1,
+    "levels": {
+      "Normal": "OrientalTechno",
+      "Hard": "OrientalDubstep"
+    },
+    "unlocks": [
+      "Intimate",
+      "OrientalDubstep"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "1-2": {
+    "type": "character",
+    "group": 1,
+    "levels": {
+      "Normal": "Intimate",
+      "Hard": "IntimateH"
+    },
+    "unlocks": [
+      "OrientalInsomniac"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "1-X": {
+    "type": "character",
+    "group": 1,
+    "levels": {
+      "Normal": "OrientalInsomniac",
+      "Hard": "InsomniacHard"
+    },
+    "unlocks": [
+      "Lofi",
+      "GongXi"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": false
+  },
+  "ExitTrain": {
+    "type": "object",
+    "action": "transition:GoToTrain",
+    "group": 5,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "GoToSVTWard": {
+    "type": "object",
+    "action": "transition:ExitSVTWard",
+    "group": 1,
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "TalkToJanitor2": {
+    "type": "object",
+    "action": "talkToJanitor",
+    "group": 2,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "2-1": {
+    "type": "character",
+    "group": 2,
+    "levels": {
+      "Normal": "Lofi",
+      "Hard": "CareLess"
+    },
+    "unlocks": [
+      "SVT"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "2-2": {
+    "type": "character",
+    "group": 2,
+    "levels": {
+      "Normal": "SVT",
+      "Hard": "Unreachable"
+    },
+    "unlocks": [
+      "Smokin"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "2-X": {
+    "type": "character",
+    "group": 2,
+    "levels": {
+      "Normal": "Boss2",
+      "Hard": "Bitterness"
+    },
+    "unlocks": [
+      "Garden",
+      "BeansHopper"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": true,
+    "leftPager": true
+  },
+  "2-4": {
+    "type": "character",
+    "group": 2,
+    "levels": {
+      "Normal": "SongOfTheSea",
+      "Hard": "SongOfTheSeaH"
+    },
+    "unlocks": [
+      "Boss2"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": true,
+    "leftPager": true,
+    "intermission": true
+  },
+  "2-3": {
+    "type": "character",
+    "group": 2,
+    "levels": {
+      "Normal": "Smokin",
+      "Hard": "Pomeranian"
+    },
+    "unlocks": [
+      "SongOfTheSea"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": true,
+    "leftPager": true
+  },
+  "2-B1": {
+    "type": "character",
+    "group": 2,
+    "levels": {
+      "Normal": "BeansHopper"
+    },
+    "unlocks": [],
+    "normalEnabled": false,
+    "hardEnabled": false,
+    "leftPager": true,
+    "skipCamAnimOnSelect": true
+  },
+  "3-1": {
+    "type": "character",
+    "group": 1,
+    "levels": {
+      "Normal": "Garden",
+      "Hard": "Lounge"
+    },
+    "unlocks": [
+      "Classy",
+      "MeetAndTweet"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "TalkToJanitor3": {
+    "type": "object",
+    "action": "talkToJanitor",
+    "group": 1,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "3-2": {
+    "type": "character",
+    "group": 1,
+    "levels": {
+      "Normal": "Classy",
+      "Hard": "ClassyH"
+    },
+    "unlocks": [
+      "DistantDuet"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "3-3": {
+    "type": "character",
+    "group": 1,
+    "levels": {
+      "Normal": "DistantDuet",
+      "Hard": "DistantDuetH"
+    },
+    "unlocks": [
+      "Lesmis"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": true,
+    "leftPager": true
+  },
+  "3-B1": {
+    "load": false,
+    "type": "character",
+    "group": 1,
+    "levels": {
+      "Normal": "GAndTonic"
+    },
+    "unlocks": [],
+    "normalEnabled": false,
+    "hardEnabled": false,
+    "leftPager": true
+  },
+  "GoToAthleteWard": {
+    "type": "object",
+    "action": "transition:ExitAthleteWard",
+    "group": 1,
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "MainElevator": {
+    "type": "object",
+    "action": "transition:ExitRecordsRoom",
+    "group": 1,
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "3-X": {
+    "type": "character",
+    "group": 1,
+    "levels": {
+      "Normal": "Lesmis"
+    },
+    "unlocks": [
+      "Heldbeats",
+      "BlackestLuxuryCar"
+    ],
+    "normalEnabled": false,
+    "hardEnabled": false,
+    "leftPager": true
+  },
+  "PaigeChair": {
+    "type": "object",
+    "action": "ink:PaigeOffice",
+    "group": 1,
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "GoToArtRoom": {
+    "type": "object",
+    "action": "transition:ExitArtRoom",
+    "group": 1,
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "1-CNY": {
+    "type": "character",
+    "group": 1,
+    "levels": {
+      "Normal": "GongXi"
+    },
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "1-BOO": {
+    "type": "character",
+    "group": 1,
+    "levels": {
+      "Normal": "Halloween"
+    },
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "GoToTrain": {
+    "type": "object",
+    "action": "transition:ExitTrain",
+    "group": 1,
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "TalkToJanitor4": {
+    "type": "object",
+    "action": "talkToJanitor",
+    "group": 1,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "VendingMachinePaige": {
+    "type": "object",
+    "action": "vendingMachinePaige",
+    "group": 1,
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "GoToBasement": {
+    "type": "object",
+    "action": "transition:ExitBasement",
+    "group": 1,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "TalkToJanitor1": {
+    "type": "object",
+    "action": "talkToJanitor",
+    "group": 1,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "4-1": {
+    "type": "character",
+    "group": 5,
+    "levels": {
+      "Normal": "Heldbeats",
+      "Hard": "Rollerdisco"
+    },
+    "unlocks": [
+      "Invisible",
+      "Unbeatable"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": true,
+    "skipCamAnimOnSelect": false
+  },
+  "4-2": {
+    "type": "character",
+    "group": 5,
+    "levels": {
+      "Normal": "Invisible",
+      "Hard": "InvisibleH"
+    },
+    "unlocks": [
+      "Steinway"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": true,
+    "skipCamAnimOnSelect": false
+  },
+  "4-3": {
+    "type": "character",
+    "group": 5,
+    "levels": {
+      "Normal": "Steinway",
+      "Hard": "SteinwayH"
+    },
+    "unlocks": [
+      "KnowYou"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": true,
+    "skipCamAnimOnSelect": false,
+    "leftPager": true
+  },
+  "4-4": {
+    "type": "character",
+    "group": 5,
+    "levels": {
+      "Normal": "KnowYou",
+      "Hard": "Murmurs"
+    },
+    "unlocks": [
+      "InsomniacHard"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": true,
+    "skipCamAnimOnSelect": false,
+    "leftPager": true
+  },
+  "2P-1": {
+    "load": false,
+    "type": "character",
+    "group": 9,
+    "levels": {
+      "Normal": "FourChannel"
+    },
+    "normalEnabled": false,
+    "hardEnabled": false,
+    "skipCamAnimOnSelect": false
+  },
+  "2P-2": {
+    "load": false,
+    "type": "character",
+    "group": 9,
+    "levels": {
+      "Normal": "fGirlfriend"
+    },
+    "normalEnabled": false,
+    "hardEnabled": false,
+    "skipCamAnimOnSelect": true
+  },
+  "GoToRooftop": {
+    "type": "object",
+    "action": "transition:ExitRooftop",
+    "group": 1,
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "ExitSVTWard": {
+    "type": "object",
+    "action": "transition:GoToSVTWard",
+    "goesTo": "",
+    "group": 2,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "FPhunk": {
+    "type": "character",
+    "group": 1,
+    "levels": {
+      "Normal": "FPhunk"
+    },
+    "unlocks": [],
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "FlyAway": {
+    "type": "character",
+    "group": 9,
+    "levels": {
+      "Normal": "FlyAway"
+    },
+    "unlocks": [],
+    "normalEnabled": true,
+    "leftPager": true,
+    "skipCamAnimOnSelect": true
+  },
+  "Hospital Info Desk": {
+    "load": false,
+    "type": "object",
+    "nodeName": "Hospital_Info_Desk",
+    "group": 1,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "EasterEgg_Doctor": {
+    "load": false,
+    "type": "object",
+    "action": "EasterEgg_Doctor",
+    "group": 2,
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "EasterEgg_Chicken": {
+    "load": false,
+    "type": "object",
+    "action": "EasterEgg_Chicken",
+    "group": 3,
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "EasterEgg_Morgue": {
+    "load": false,
+    "type": "object",
+    "action": "EasterEgg_Morgue",
+    "group": 3,
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "BasementComputer": {
+    "type": "object",
+    "action": "BasementComputer",
+    "group": 3,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "X-PBC": {
+    "type": "character",
+    "group": 3,
+    "levels": {
+      "Normal": "Beatblock"
+    },
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "X-FTS": {
+    "type": "character",
+    "group": 3,
+    "levels": {
+      "Normal": "VividStasis"
+    },
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "X-KOB": {
+    "type": "character",
+    "group": 3,
+    "levels": {
+      "Normal": "SparkLine"
+    },
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "X-WOT": {
+    "type": "character",
+    "group": 3,
+    "levels": {
+      "Normal": "Unbeatable"
+    },
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "X-MAT": {
+    "type": "character",
+    "group": 3,
+    "levels": {
+      "Normal": "MeetAndTweet"
+    },
+    "normalEnabled": false,
+    "hardEnabled": false,
+    "leftPager": true
+  },
+  "GoToMuseDashRoom": {
+    "type": "object",
+    "action": "transition:ExitMuseDashRoom",
+    "group": 3,
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "ExitBasement": {
+    "type": "object",
+    "action": "transition:GoToBasement",
+    "group": 3,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "ExitRooftop": {
+    "type": "object",
+    "action": "transition:GoToAthleteWard",
+    "group": 9,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "X-0": {
+    "type": "character",
+    "group": 6,
+    "levels": {
+      "Normal": "HelpingHands"
+    },
+    "unlocks": [],
+    "normalEnabled": true,
+    "hardEnabled": false,
+    "skipCamAnimOnSelect": true,
+    "leftPager": true
+  },
+  "ExitArtRoom": {
+    "type": "object",
+    "action": "transition:GoToArtRoom",
+    "group": 6,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "TalkToJanitorArtRoom": {
+    "type": "object",
+    "action": "talkToJanitor",
+    "group": 6,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "X-1": {
+    "type": "character",
+    "group": 6,
+    "levels": {
+      "Normal": "ArtExercise"
+    },
+    "unlocks": [],
+    "normalEnabled": false,
+    "hardEnabled": false,
+    "skipCamAnimOnSelect": true
+  },
+  "ArtCanvas": {
+    "load": false,
+    "type": "object",
+    "action": "artCanvas",
+    "group": 6,
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "TalkToJanitorMuseDash": {
+    "type": "object",
+    "action": "talkToJanitor",
+    "group": 7,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "ExitMuseDashRoom": {
+    "type": "object",
+    "action": "transition:GoToMuseDashRoom",
+    "group": 7,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "MD-1": {
+    "type": "character",
+    "group": 7,
+    "levels": {
+      "Normal": "BlackestLuxuryCar"
+    },
+    "unlocks": [
+      "TapeStopNight"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": false
+  },
+  "MD-2": {
+    "type": "character",
+    "group": 7,
+    "levels": {
+      "Normal": "TapeStopNight"
+    },
+    "unlocks": [
+      "The90sDecision"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": false
+  },
+  "MD-3": {
+    "type": "character",
+    "group": 7,
+    "levels": {
+      "Normal": "The90sDecision"
+    },
+    "normalEnabled": true,
+    "hardEnabled": false,
+    "leftPager": true
+  },
+  "ExitAthleteWard": {
+    "type": "object",
+    "action": "transition:GoToAthleteWard",
+    "group": 8,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "5-1": {
+    "type": "character",
+    "group": 8,
+    "levels": {
+      "Normal": "LuckyBreak",
+      "Hard": "Injury"
+    },
+    "unlocks": [
+      "Freezeshot"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "5-2": {
+    "type": "character",
+    "group": 8,
+    "levels": {
+      "Normal": "Freezeshot",
+      "Hard": "FreezeshotH"
+    },
+    "unlocks": [
+      "AthleteTherapy"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "TalkToJanitor5": {
+    "type": "object",
+    "action": "talkToJanitor",
+    "group": 8,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "5-3": {
+    "type": "character",
+    "group": 8,
+    "levels": {
+      "Normal": "AthleteTherapy",
+      "Hard": "StevensonsTango"
+    },
+    "unlocks": [
+      "AthleteFinale"
+    ],
+    "normalEnabled": true,
+    "hardEnabled": true,
+    "leftPager": true
+  },
+  "5-B1": {
+    "type": "character",
+    "action": "rhythmWeightlifter",
+    "levels": {
+      "Normal": "RhythmWeightlifter"
+    },
+    "group": 8,
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "5-X": {
+    "type": "character",
+    "group": 8,
+    "levels": {
+      "Normal": "AthleteFinale"
+    },
+    "unlocks": [
+      "HaileyDuet"
+    ],
+    "normalEnabled": true,
+    "skipCamAnimOnSelect": true,
+    "leftPager": true
+  },
+  "TalkToJanitorRecordsRoom": {
+    "type": "object",
+    "action": "talkToJanitor",
+    "group": 10,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "ExitRecordsRoom": {
+    "type": "object",
+    "action": "transition:MainElevator",
+    "group": 10,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "6-1": {
+    "type": "character",
+    "group": 10,
+    "levels": {
+      "Normal": "HaileyDuet"
+    },
+    "unlocks": [
+      "EdegaRave"
+    ],
+    "normalEnabled": true,
+    "skipCamAnimOnSelect": true,
+    "leftPager": true
+  },
+  "6-2": {
+    "type": "character",
+    "group": 10,
+    "levels": {
+      "Normal": "EdegaRave"
+    },
+    "unlocks": [
+      "PaigesReckoning"
+    ],
+    "normalEnabled": false,
+    "skipCamAnimOnSelect": true,
+    "leftPager": false
+  },
+  "6-X": {
+    "type": "character",
+    "group": 10,
+    "levels": {
+      "Normal": "PaigesReckoning"
+    },
+    "unlocks": [
+      "Blurred"
+    ],
+    "normalEnabled": false,
+    "leftPager": true
+  },
+  "7-1": {
+    "type": "character",
+    "group": 10,
+    "levels": {
+      "Normal": "Blurred"
+    },
+    "unlocks": [
+      "Bitterness"
+    ],
+    "normalEnabled": false,
+    "skipCamAnimOnSelect": true,
+    "leftPager": true
+  },
+  "TalkToJanitorVoid": {
+    "type": "object",
+    "action": "talkToJanitor",
+    "group": 11,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "ExitVoid": {
+    "type": "object",
+    "action": "transition:MainElevator",
+    "group": 11,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "VoidItem1": {
+    "type": "object",
+    "action": "ink:AbandonedWard_Novel",
+    "group": 11,
+    "normalEnabled": true,
+    "hardEnabled": true
+  },
+  "VoidItem2": {
+    "type": "object",
+    "action": "ink:AbandonedWard_Notebook",
+    "group": 11,
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "VoidItem3": {
+    "type": "object",
+    "action": "ink:AbandonedWard_Yoyo",
+    "group": 11,
+    "normalEnabled": false,
+    "hardEnabled": false
+  },
+  "7-X": {
+    "type": "character",
+    "group": 11,
+    "levels": {
+      "Normal": "Montage"
+    },
+    "normalEnabled": false,
+    "leftPager": true
+  },
+  "7-X2": {
+    "type": "character",
+    "group": 11,
+    "levels": {
+      "Normal": "Montage2"
+    },
+    "normalEnabled": false,
+    "leftPager": true
+  }
+}

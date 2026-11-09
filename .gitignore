@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 本机状态、存档快照、账户缓存和验证输出；关卡映射是公开静态资源。
+/*.json
+!/level-sequence-resources.json
+/*.json.tmp
+/*.jsonl
+/*.log
+/app-launch-error.txt
+/*-simulation-artifacts/
+/temp/
